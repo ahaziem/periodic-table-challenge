@@ -9,6 +9,7 @@
 main {
     font-family: $font-family;
     color: black;
+    font-weight: bold;
 }
 
 .Element_number {
@@ -16,5 +17,10 @@ main {
     height: 20px;
      &__-lightgrey {
          background-color:$color-grey;
+     }
+     
+     &__-yellow {
+         background-color:$color-yellow;
+
      }
 }
