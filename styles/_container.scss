@@ -1,0 +1,20 @@
+@use './variable' as *;
+@use './mixins' as *;
+
+.periodic-container {
+    @include gridLayout;
+    background-color: $background-color;
+}
+
+main {
+    font-family: $font-family;
+    color: black;
+}
+
+.Element_number {
+    width: 20px;
+    height: 20px;
+     &__-lightgrey {
+         background-color:$color-grey;
+     }
+}
